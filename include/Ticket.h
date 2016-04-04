@@ -4,7 +4,7 @@
 #include <memory>
 #include <string>
 #include "Vectr.h"
-#include <boost/shared_ptr.hpp>
+//#include <boost/shared_ptr.hpp>
 #include "Place.h"
 
 class Ticket
@@ -13,7 +13,7 @@ class Ticket
         Ticket();
         Ticket(std::string fname,
                std::string lname,
-               int doc_num,
+               unsigned long doc_num,
                char sex,
                int t_num,
                std::string dest,
@@ -22,7 +22,7 @@ class Ticket
 
         virtual ~Ticket();
 
-        int get_doc_number() const {return doc_number;}
+        unsigned long get_doc_number() const {return doc_number;}
         int get_transport_num() const {return transport_num;}
 
         void print_info();
@@ -30,7 +30,7 @@ class Ticket
     private:
         std::string first_name;
         std::string last_name;
-        int doc_number;
+        unsigned long doc_number;
         char sex;
 
         int transport_num;

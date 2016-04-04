@@ -8,8 +8,8 @@
 #include <stdlib.h>
 #include <iostream>
 
-#include <boost/random/mersenne_twister.hpp>
-#include <boost/random/uniform_int_distribution.hpp>
+//#include <boost/random/mersenne_twister.hpp>
+//#include <boost/random/uniform_int_distribution.hpp>
 
 class Train : public Transport
 {

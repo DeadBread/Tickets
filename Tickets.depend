@@ -147,3 +147,140 @@
 1459493455 source:/home/kardamon/Documents/prog1/Tickets/src/Wrong_number.cpp
 	"Wrong_number.h"
 
+1459586616 source:/home/t15874/unix/Documents/Tickets/main.cpp
+	"main.h"
+
+1459589312 /home/t15874/unix/Documents/Tickets/main.h
+	<iostream>
+	"Transport_system.h"
+	"Tickets_vect.h"
+	"Vectr.h"
+	"Plain_place.h"
+	"Bus_place.h"
+	"Train_place.h"
+	"Wrong_number.h"
+	"Incorrect_input.h"
+	<exception>
+
+1459588186 /home/t15874/unix/Documents/Tickets/include/Transport_system.h
+	<memory>
+	<iostream>
+	"Train.h"
+	"Plain.h"
+	"Bus.h"
+
+1459582800 /home/t15874/unix/Documents/Tickets/include/Train.h
+	"Transport.h"
+	"Incorrect_input.h"
+	"Vectr.h"
+	<stdlib.h>
+	<iostream>
+
+1459582794 /home/t15874/unix/Documents/Tickets/include/Transport.h
+	"Vectr.h"
+	<stdlib.h>
+	<iostream>
+	<ctime>
+
+1459587770 /home/t15874/unix/Documents/Tickets/include/Vectr.h
+	<vector>
+
+1459586667 /home/t15874/unix/Documents/Tickets/include/Incorrect_input.h
+	<exception>
+	<string>
+
+1459582807 /home/t15874/unix/Documents/Tickets/include/Plain.h
+	"Transport.h"
+	"Incorrect_input.h"
+	<stdlib.h>
+	<iostream>
+
+1459582813 /home/t15874/unix/Documents/Tickets/include/Bus.h
+	"Transport.h"
+	<stdlib.h>
+	<iostream>
+	"Vectr.h"
+	"Incorrect_input.h"
+
+1459585529 /home/t15874/unix/Documents/Tickets/include/Tickets_vect.h
+	"Vectr.h"
+	"Ticket.h"
+	<iostream>
+
+1459585537 /home/t15874/unix/Documents/Tickets/include/Ticket.h
+	<memory>
+	<string>
+	"Vectr.h"
+	"Place.h"
+
+1459587988 /home/t15874/unix/Documents/Tickets/include/Place.h
+	"Vectr.h"
+	<stdlib.h>
+	<iostream>
+
+1459587816 /home/t15874/unix/Documents/Tickets/include/Plain_place.h
+	"Vectr.h"
+	<stdlib.h>
+	<iostream>
+	"Place.h"
+
+1459587802 /home/t15874/unix/Documents/Tickets/include/Bus_place.h
+	"Vectr.h"
+	<stdlib.h>
+	<iostream>
+	"Place.h"
+
+1459587856 /home/t15874/unix/Documents/Tickets/include/Train_place.h
+	"Vectr.h"
+	<stdlib.h>
+	<iostream>
+	<Place.h>
+
+1459461104 /home/t15874/unix/Documents/Tickets/include/Wrong_number.h
+
+1459588956 source:/home/t15874/unix/Documents/Tickets/src/Bus.cpp
+	"Bus.h"
+
+1459505056 source:/home/t15874/unix/Documents/Tickets/src/Bus_place.cpp
+	"Bus_place.h"
+
+1459586616 source:/home/t15874/unix/Documents/Tickets/src/Incorrect_input.cpp
+	"Incorrect_input.h"
+
+1459504854 source:/home/t15874/unix/Documents/Tickets/src/Place.cpp
+	"Place.h"
+
+1459588956 source:/home/t15874/unix/Documents/Tickets/src/Plain.cpp
+	"Plain.h"
+
+1459505012 source:/home/t15874/unix/Documents/Tickets/src/Plain_place.cpp
+	"Plain_place.h"
+
+1459585529 source:/home/t15874/unix/Documents/Tickets/src/Ticket.cpp
+	"Ticket.h"
+	<iostream>
+
+1459585529 source:/home/t15874/unix/Documents/Tickets/src/Tickets_vect.cpp
+	"Tickets_vect.h"
+	<iostream>
+
+1459588956 source:/home/t15874/unix/Documents/Tickets/src/Train.cpp
+	"Train.h"
+	<iostream>
+
+1459504840 source:/home/t15874/unix/Documents/Tickets/src/Train_place.cpp
+	"Train_place.h"
+	<iostream>
+
+1459589080 source:/home/t15874/unix/Documents/Tickets/src/Transport.cpp
+	"Transport.h"
+
+1459504228 source:/home/t15874/unix/Documents/Tickets/src/Transport_system.cpp
+	"Transport_system.h"
+
+1458331494 source:/home/t15874/unix/Documents/Tickets/src/Vectr.cpp
+	"Vectr.h"
+
+1459504254 source:/home/t15874/unix/Documents/Tickets/src/Wrong_number.cpp
+	"Wrong_number.h"
+

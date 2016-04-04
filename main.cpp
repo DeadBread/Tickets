@@ -66,8 +66,27 @@ int interface() {
             }
          }
          catch(...) {
+            cin.clear();
+            cin.ignore(100, '\n');
             cout << '\n' << "Very incorrect input!" << '\n' << endl;
          }
+    }
+
+    int trans_num;
+    unsigned long doc_num;
+    cout << "Welcome to finder!" << '\n' << "Enter the transport number!" << endl;
+    cin >> trans_num;
+    cout << "Enter the document number!" << endl;
+    cin >> doc_num;
+
+    int pos = tickets.find(trans_num, doc_num);
+    if (pos < 0) {
+        cout << "Found nothing" << endl;
+    }
+    else {
+        Ticket tmp = tickets.get(pos);
+        cout <<"Found ticket" << endl;
+        tmp.print_info();
     }
     return 0;
 }
@@ -136,7 +155,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
         try {
             string name;
             string lastname;
-            int doc_num;
+            unsigned long doc_num;
             char sex;
             cout << "enter your name" << endl;
             cin >> name;
@@ -164,7 +183,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
                     }
                 }
                 if (ind < 0) {
-                    throw (Incorrect_input());
+                    throw (Incorrect_input("transport number"));
                 }
 
                 int row;
@@ -227,7 +246,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
                 }
 
                 if (ind < 0) {
-                    throw (Incorrect_input());
+                    throw (Incorrect_input("transport number"));
                 }
 
                 int car;
@@ -239,7 +258,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
                 cin >> sit;
 
                 int prc = trains[ind].check_place(car, sit);
-                 //if (prc == 0) {throw ("incorrect place");}
+                //if (prc == 0) {throw (Incorrect_input("place"));}
                 if (prc > 0) {
                     klass = 2;
                 }
@@ -290,7 +309,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
                     }
                 }
                 if (ind < 0) {
-                    throw (Incorrect_input());
+                    throw (Incorrect_input("transport number"));
                 }
 
                 int sit;
@@ -328,11 +347,10 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
             return 0;
 
         }
-        catch(Incorrect_input &tmp) {
+        catch(Incorrect_input tmp) {
             cout << "Incorrect input of " << tmp.get_msg() << endl;
             cin.clear();
             cin.ignore(100, '\n');
-            //будет прописано
         }
         catch(Wrong_number&) {
             cout << "Wrong number!" << endl;
@@ -343,7 +361,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
             cout << "fail at input!" << '\n' << endl;
         }
         catch(...) {
-            cout << "unknown exception!" << endl;
+            cout << "unknown exception!" << '\n'<< endl;
         }
     }
 
@@ -351,21 +369,33 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
 }
 
 void finder(Tickets_vect &tickets) {
-    int trans_num;
-    int doc_num;
-    cout << "Welcome to finder!" << '\n' << "Enter the transport number!" << endl;
-    cin >> trans_num;
-    cout << "Enter the document number!" << endl;
-    cin >> doc_num;
 
-    int pos = tickets.find(trans_num, doc_num);
-    if (pos < 0) {
-        cout << "Found nothing" << endl;
+    try {
+
+        cin.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
+
+        int trans_num;
+        unsigned long doc_num;
+
+        cout << "Welcome to finder!" << '\n' << "Enter the transport number!" << endl;
+        cin >> trans_num;
+        cout << "Enter the document number!" << endl;
+        cin >> doc_num;
+
+        int pos = tickets.find(trans_num, doc_num);
+        if (pos < 0) {
+            cout << "Found nothing" << endl;
+        }
+        else {
+            Ticket tmp = tickets.get(pos);
+            cout <<"Found ticket" << endl;
+            tmp.print_info();
+        }
     }
-    else {
-        Ticket tmp = tickets.get(pos);
-        cout <<"Found ticket" << endl;
-        tmp.print_info();
+    catch (...) {
+        cin.ignore(100, '\n');
+        //cin.clear();
+        cout << "incorrect input!" << endl;
     }
 }
 

@@ -7,10 +7,8 @@
 #include <stdlib.h>
 #include <iostream>
 
-#include <boost/random/mersenne_twister.hpp>
-#include <boost/random/uniform_int_distribution.hpp>
-//хороший, годный класс! Использовать, как образец!
-//видимо, надо таки делать общий предок - класс "транспорт"
+//#include <boost/random/mersenne_twister.hpp>
+//#include <boost/random/uniform_int_distribution.hpp>
 
 class Plain : public Transport
 {

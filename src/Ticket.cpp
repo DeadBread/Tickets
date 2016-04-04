@@ -8,7 +8,7 @@ Ticket::Ticket() {
 
 Ticket::Ticket(std::string fname,
                std::string lname,
-               int doc_num,
+               unsigned long doc_num,
                char _sex,
                int t_num,
                std::string dest,

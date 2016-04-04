@@ -5,9 +5,9 @@
 #include <stdlib.h>
 #include <iostream>
 #include <ctime>
-#include <boost/random/mersenne_twister.hpp>
-#include <boost/random/uniform_int_distribution.hpp>
-#include <boost/random/linear_congruential.hpp>
+//#include <boost/random/mersenne_twister.hpp>
+//#include <boost/random/uniform_int_distribution.hpp>
+//#include <boost/random/linear_congruential.hpp>
 
 //const boost::random::minstd_rand gen(std::time(0));
 

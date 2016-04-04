@@ -8,7 +8,7 @@ class Incorrect_input : public std::exception
 {
     public:
         Incorrect_input();
-        Incorrect_input(std::string tmp);
+        Incorrect_input(std::string &&tmp);
 
         virtual ~Incorrect_input();
         std::string get_msg() const {
