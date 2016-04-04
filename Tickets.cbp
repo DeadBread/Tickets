@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Tickets" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;include/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Tickets" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Tickets" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Bus.h" />
+		<Unit filename="include/Bus_place.h" />
+		<Unit filename="include/Incorrect_input.h" />
+		<Unit filename="include/Place.h" />
+		<Unit filename="include/Plain.h" />
+		<Unit filename="include/Plain_place.h" />
+		<Unit filename="include/Ticket.h" />
+		<Unit filename="include/Tickets_vect.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="include/Train.h" />
+		<Unit filename="include/Train_place.h" />
+		<Unit filename="include/Transport.h" />
+		<Unit filename="include/Transport_system.h" />
+		<Unit filename="include/Vectr.h" />
+		<Unit filename="include/Wrong_number.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="src/Bus.cpp" />
+		<Unit filename="src/Bus_place.cpp" />
+		<Unit filename="src/Incorrect_input.cpp" />
+		<Unit filename="src/Place.cpp" />
+		<Unit filename="src/Plain.cpp" />
+		<Unit filename="src/Plain_place.cpp" />
+		<Unit filename="src/Ticket.cpp" />
+		<Unit filename="src/Tickets_vect.cpp" />
+		<Unit filename="src/Train.cpp" />
+		<Unit filename="src/Train_place.cpp" />
+		<Unit filename="src/Transport.cpp" />
+		<Unit filename="src/Transport_system.cpp" />
+		<Unit filename="src/Vectr.cpp" />
+		<Unit filename="src/Wrong_number.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
