@@ -1,129 +1,118 @@
 # depslib dependency file v1.0
-1459578281 source:/home/kardamon/Documents/prog1/Tickets/main.cpp
+1459872674 source:/home/kardamon/Documents/prog1/Tickets/main.cpp
 	"main.h"
 
-1459578156 source:/home/kardamon/Documents/prog1/Tickets/src/Bus.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Bus.cpp
 	"Bus.h"
 
-1459576920 /home/kardamon/Documents/prog1/Tickets/include/Bus.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Bus.h
 	"Transport.h"
 	<stdlib.h>
 	<iostream>
 	"Vectr.h"
 	"Incorrect_input.h"
-	<boost/random/mersenne_twister.hpp>
-	<boost/random/uniform_int_distribution.hpp>
 
-1459578164 /home/kardamon/Documents/prog1/Tickets/include/Transport.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Transport.h
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
 	<ctime>
-	<boost/random/mersenne_twister.hpp>
-	<boost/random/uniform_int_distribution.hpp>
-	<boost/random/linear_congruential.hpp>
 
-1459576971 /home/kardamon/Documents/prog1/Tickets/include/Vectr.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Vectr.h
 	<vector>
 
-1459494257 source:/home/kardamon/Documents/prog1/Tickets/src/Bus_place.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Bus_place.cpp
 	"Bus_place.h"
 
-1459577003 /home/kardamon/Documents/prog1/Tickets/include/Bus_place.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Bus_place.h
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
 	"Place.h"
 
-1459577188 /home/kardamon/Documents/prog1/Tickets/include/Place.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Place.h
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
 
-1459494055 source:/home/kardamon/Documents/prog1/Tickets/src/Place.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Place.cpp
 	"Place.h"
 
-1459578156 source:/home/kardamon/Documents/prog1/Tickets/src/Plain.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Plain.cpp
 	"Plain.h"
 
-1459576851 /home/kardamon/Documents/prog1/Tickets/include/Plain.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Plain.h
 	"Transport.h"
 	"Incorrect_input.h"
 	<stdlib.h>
 	<iostream>
-	<boost/random/mersenne_twister.hpp>
-	<boost/random/uniform_int_distribution.hpp>
 
-1459494212 source:/home/kardamon/Documents/prog1/Tickets/src/Plain_place.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Plain_place.cpp
 	"Plain_place.h"
 
-1459577016 /home/kardamon/Documents/prog1/Tickets/include/Plain_place.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Plain_place.h
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
 	"Place.h"
 
-1459493428 source:/home/kardamon/Documents/prog1/Tickets/src/Ticket.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Ticket.cpp
 	"Ticket.h"
 	<iostream>
 
-1459577245 /home/kardamon/Documents/prog1/Tickets/include/Ticket.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Ticket.h
 	<memory>
 	<string>
 	"Vectr.h"
-	<boost/shared_ptr.hpp>
 	"Place.h"
 
-1459578156 source:/home/kardamon/Documents/prog1/Tickets/src/Train.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Train.cpp
 	"Train.h"
 	<iostream>
 
-1459576950 /home/kardamon/Documents/prog1/Tickets/include/Train.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Train.h
 	"Transport.h"
 	"Incorrect_input.h"
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
-	<boost/random/mersenne_twister.hpp>
-	<boost/random/uniform_int_distribution.hpp>
 
-1459494041 source:/home/kardamon/Documents/prog1/Tickets/src/Train_place.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Train_place.cpp
 	"Train_place.h"
 	<iostream>
 
-1459577056 /home/kardamon/Documents/prog1/Tickets/include/Train_place.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Train_place.h
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
 	<Place.h>
 
-1459578281 source:/home/kardamon/Documents/prog1/Tickets/src/Transport.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Transport.cpp
 	"Transport.h"
 
-1458320695 source:/home/kardamon/Documents/prog1/Tickets/src/Vectr.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Vectr.cpp
 	"Vectr.h"
 
-1459493428 source:/home/kardamon/Documents/prog1/Tickets/src/Transport_system.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Transport_system.cpp
 	"Transport_system.h"
 
-1459577387 /home/kardamon/Documents/prog1/Tickets/include/Transport_system.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Transport_system.h
 	<memory>
 	<iostream>
 	"Train.h"
 	"Plain.h"
 	"Bus.h"
 
-1459578658 /home/kardamon/Documents/prog1/Tickets/include/Tickets_vect.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Tickets_vect.h
 	"Vectr.h"
 	"Ticket.h"
 	<iostream>
-	<boost/make_shared.hpp>
 
-1459578658 source:/home/kardamon/Documents/prog1/Tickets/src/Tickets_vect.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Tickets_vect.cpp
 	"Tickets_vect.h"
 	<iostream>
 
-1459459957 /home/kardamon/Documents/prog1/Tickets/main.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/main.h
 	<iostream>
 	"Transport_system.h"
 	"Tickets_vect.h"
@@ -135,16 +124,16 @@
 	"Incorrect_input.h"
 	<exception>
 
-1459577379 /home/kardamon/Documents/prog1/Tickets/include/Incorrect_input.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Incorrect_input.h
 	<exception>
 	<string>
 
-1459450305 /home/kardamon/Documents/prog1/Tickets/include/Wrong_number.h
+1459802344 /home/kardamon/Documents/prog1/Tickets/include/Wrong_number.h
 
-1459494087 source:/home/kardamon/Documents/prog1/Tickets/src/Incorrect_input.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Incorrect_input.cpp
 	"Incorrect_input.h"
 
-1459493455 source:/home/kardamon/Documents/prog1/Tickets/src/Wrong_number.cpp
+1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Wrong_number.cpp
 	"Wrong_number.h"
 
 1459586616 source:/home/t15874/unix/Documents/Tickets/main.cpp

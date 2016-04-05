@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    cin.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);    //учит cin кидать исключения
+    //cin.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);    //учит cin кидать исключения
 
     srand(std::time(0));
     int i = interface();
@@ -13,6 +13,7 @@ int main() {
 //ИНТЕРФЕЙС. ВОЗМОЖНО, СТОИТ ВЫНЕСТИ В ОТДЕЛЬНЫЙ БИНАРНИК
 
 int interface() {
+
     cout << "Welcome to the system! Do you want to start?" << endl;
 
     int tr = yes_or_no();
@@ -37,6 +38,8 @@ int interface() {
         interface();
         return 0;
     }
+
+//    cin.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
 
     int l = 1;
     while (l) {
@@ -64,6 +67,18 @@ int interface() {
             if (check) {
                 cout << '\n' << "invalid choice!" << '\n' << endl;
             }
+         }
+
+         catch(Incorrect_input) {
+            cin.clear();
+            cin.ignore(100, '\n');
+            cout << "fail at input!" << '\n' << endl;
+         }
+
+         catch(ios_base::failure) {
+            cin.clear();
+            cin.ignore(100, '\n');
+            cout << "fail at input!" << '\n' << endl;
          }
          catch(...) {
             cin.clear();
