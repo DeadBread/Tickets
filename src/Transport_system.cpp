@@ -2,8 +2,7 @@
 
 using namespace std;
 
-Transport_system::Transport_system() {
-}
+Transport_system::Transport_system() {}
 
 void Transport_system::print_plains() const {
     auto iter = all_plains.begin();

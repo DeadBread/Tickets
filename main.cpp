@@ -20,8 +20,8 @@ int interface() {
         return 0;
     }
 
-    Transport_system ts;
-    Tickets_vect tickets;
+    Transport_system &ts = Transport_system::get_transport_system();
+    Tickets_vect &tickets = Tickets_vect::get_tickets_vect();
 
     try {
         creation (ts, tickets);
@@ -30,15 +30,13 @@ int interface() {
         cout << '\n' << "Incorrect number!" << '\n' << endl;
         interface();
         return 0;
-    }  //  ОПАСНО! ЧТО БУДЕТ С ПАМЯТЬЮ?
+    }
     catch(ios_base::failure) {
         cout << '\n' << "Input failure!" << '\n' << endl;
         cin.clear();
         interface();
         return 0;
     }
-
-//    cin.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
 
     int l = 1;
     while (l) {
@@ -410,7 +408,6 @@ void finder(Tickets_vect &tickets) {
     }
     catch (...) {
         cin.ignore(100, '\n');
-        //cin.clear();
         cout << "incorrect input!" << endl;
     }
 }

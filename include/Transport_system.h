@@ -11,8 +11,13 @@ using namespace std;
 class Transport_system
 {
     public:
-        Transport_system();
+        //Transport_system();
         //virtual ~Transport_system();
+
+        static Transport_system& get_transport_system() {
+            static Transport_system tmp;
+            return tmp;
+        }
 
         void add_plain(Plain &&pl) { all_plains.push_back(pl); }
         void add_train(Train &&tr) { all_trains.push_back(tr); }
@@ -29,6 +34,8 @@ class Transport_system
 
     protected:
     private:
+
+        Transport_system();
 
         Vectr<Train> all_trains;
         Vectr<Plain> all_plains;

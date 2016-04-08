@@ -8,7 +8,11 @@
 class Tickets_vect
 {
     public:
-        Tickets_vect();
+
+        static Tickets_vect & get_tickets_vect() {
+            static Tickets_vect tmp;
+            return tmp;
+        }
 
         int get_size () const { return all.size(); }
 
@@ -19,6 +23,7 @@ class Tickets_vect
     protected:
         Vectr<std::shared_ptr<Ticket>> all;  //для реализации механизма виртуальных функций.
     private:
+        Tickets_vect();
 };
 
 #endif // TICKETS_VECT_H

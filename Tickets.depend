@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1459872674 source:/home/kardamon/Documents/prog1/Tickets/main.cpp
+1460130964 source:/home/kardamon/Documents/prog1/Tickets/main.cpp
 	"main.h"
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Bus.cpp
+1460129810 source:/home/kardamon/Documents/prog1/Tickets/src/Bus.cpp
 	"Bus.h"
 
 1460130146 /home/kardamon/Documents/prog1/Tickets/include/Bus.h
@@ -21,7 +21,7 @@
 1460130114 /home/kardamon/Documents/prog1/Tickets/include/Vectr.h
 	<vector>
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Bus_place.cpp
+1460130299 source:/home/kardamon/Documents/prog1/Tickets/src/Bus_place.cpp
 	"Bus_place.h"
 
 1459802344 /home/kardamon/Documents/prog1/Tickets/include/Bus_place.h
@@ -38,7 +38,7 @@
 1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Place.cpp
 	"Place.h"
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Plain.cpp
+1460130092 source:/home/kardamon/Documents/prog1/Tickets/src/Plain.cpp
 	"Plain.h"
 
 1460130139 /home/kardamon/Documents/prog1/Tickets/include/Plain.h
@@ -47,7 +47,7 @@
 	<stdlib.h>
 	<iostream>
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Plain_place.cpp
+1460130226 source:/home/kardamon/Documents/prog1/Tickets/src/Plain_place.cpp
 	"Plain_place.h"
 
 1459802344 /home/kardamon/Documents/prog1/Tickets/include/Plain_place.h
@@ -56,7 +56,7 @@
 	<iostream>
 	"Place.h"
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Ticket.cpp
+1460130195 source:/home/kardamon/Documents/prog1/Tickets/src/Ticket.cpp
 	"Ticket.h"
 	<iostream>
 
@@ -66,7 +66,7 @@
 	"Vectr.h"
 	"Place.h"
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Train.cpp
+1460130346 source:/home/kardamon/Documents/prog1/Tickets/src/Train.cpp
 	"Train.h"
 	<iostream>
 
@@ -77,7 +77,7 @@
 	<stdlib.h>
 	<iostream>
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Train_place.cpp
+1460130263 source:/home/kardamon/Documents/prog1/Tickets/src/Train_place.cpp
 	"Train_place.h"
 	<iostream>
 
@@ -87,23 +87,23 @@
 	<iostream>
 	<Place.h>
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Transport.cpp
+1460129855 source:/home/kardamon/Documents/prog1/Tickets/src/Transport.cpp
 	"Transport.h"
 
 1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Vectr.cpp
 	"Vectr.h"
 
-1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Transport_system.cpp
+1460131033 source:/home/kardamon/Documents/prog1/Tickets/src/Transport_system.cpp
 	"Transport_system.h"
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Transport_system.h
+1460131041 /home/kardamon/Documents/prog1/Tickets/include/Transport_system.h
 	<memory>
 	<iostream>
 	"Train.h"
 	"Plain.h"
 	"Bus.h"
 
-1460130106 /home/kardamon/Documents/prog1/Tickets/include/Tickets_vect.h
+1460131211 /home/kardamon/Documents/prog1/Tickets/include/Tickets_vect.h
 	"Vectr.h"
 	"Ticket.h"
 	<iostream>
