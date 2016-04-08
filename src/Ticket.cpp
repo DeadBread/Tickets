@@ -29,13 +29,13 @@ Ticket::Ticket(std::string fname,
 void Ticket::print_info() {
     try {
         cout.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
-        cout << "Имя - " << first_name << endl;
-        cout << "Фамилия - " << last_name << endl;
-        cout << "Номер паспорта - " << doc_number << endl;
-        cout << "Пол - " << sex << endl;
-        cout << "Номер рейса (маршрута) - " << transport_num << endl;
-        cout << "Направление - " << destination << endl;
-        cout << "Время отправления - " << departure_time.hours << ":" << departure_time.minutes << endl;
+        cout << "First name - " << first_name << endl;
+        cout << "Last name - " << last_name << endl;
+        cout << "Document number - " << doc_number << endl;
+        cout << "Sex - " << sex << endl;
+        cout << "Rout number - " << transport_num << endl;
+        cout << "Destination - " << destination << endl;
+        cout << "Departure time - " << departure_time.hours << ":" << departure_time.minutes << endl;
         my_place -> print_place_info();
     }
     catch(...) {

@@ -11,10 +11,10 @@ Plain_place::Plain_place(int _row, int _sit, int _klass, int _price) {
 
 void Plain_place::print_place_info() const {
     cout.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
-    cout << "Ряд - " << row << endl;
-    cout << "Место - " << sit << endl;
-    cout << "Класс - " << klass << endl;
-    cout << "Цена билета - " << price << "р." << endl;
+    cout << "Row - " << row << endl;
+    cout << "Sit - " << sit << endl;
+    cout << "Class - " << klass << endl;
+    cout << "Price - " << price << "р." << endl;
 }
 
 Plain_place::~Plain_place() {

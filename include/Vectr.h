@@ -3,8 +3,6 @@
 
 #include <vector>
 
-//ПОКА НЕ ПРИДУМАЛ, ЗАЧЕМ ОНО ВООБЩЕ НАДО
-
 template <typename T>
 class Vectr : public std::vector <T>
 {

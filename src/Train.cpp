@@ -29,11 +29,11 @@ int Train::rand_init() {
 
 void Train::print_info() const  {   //может кидать исключения вывода
     cout.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
-    cout << "Номер поезда - " << transport_num << endl;
-    cout << "Направление - " << destination << endl;
-    cout << "Время отправления - " << departure_time.hours << ":" << departure_time.minutes << endl;
-    cout << "Цена билета (первый класс)" << first_class_price << endl;
-    cout << "Цена билета (второй класс)" << second_class_price << endl;
+    cout << "Train number - " << transport_num << endl;
+    cout << "Destination - " << destination << endl;
+    cout << "Departure time - " << departure_time.hours << ":" << departure_time.minutes << endl;
+    cout << "First class price" << first_class_price << endl;
+    cout << "Second class price" << second_class_price << endl;
 }
 
 int Train::check_place(int car, int sit) const {

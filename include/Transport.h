@@ -5,11 +5,6 @@
 #include <stdlib.h>
 #include <iostream>
 #include <ctime>
-//#include <boost/random/mersenne_twister.hpp>
-//#include <boost/random/uniform_int_distribution.hpp>
-//#include <boost/random/linear_congruential.hpp>
-
-//const boost::random::minstd_rand gen(std::time(0));
 
 class Transport
 {
@@ -40,10 +35,10 @@ class Transport
         int make_rand(int left, int right /*const boost::random::minstd_rand gn*/) const;
     private:
         const std::string destinations[16] = {
-                                 "Пекин", "Санкт-Перербург", "Нижний Новгрод", "Ереван",
-                                 "Лондон", "Владивосток", "Киев", "Владикавказ",
-                                 "Загреб", "Минск", "Орел", "София",
-                                 "Рим", "Верона", "Нарвик", "Кардифф"
+                                 "Beijing", "St. Petersburg", "Nizhniy Novgorod", "Yerevan",
+                                 "London", "Vladivistoк", "Kiev", "Vladikavkaz",
+                                 "Zagreb", "Minsk", "Oriol", "Sofia",
+                                 "Rome", "Verona", "Narvik", "Kardiff"
                                 };
         std::string where_to_go() const;
         int rand_init(int sits);

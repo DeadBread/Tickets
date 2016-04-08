@@ -24,10 +24,10 @@ int Bus::rand_init() {
 
 void Bus::print_info() const {   //может кидать исключения вывода
     cout.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
-    cout << "Номер маршрута - " << transport_num << endl;
-    cout << "Направление - " << destination << endl;
-    cout << "Время отправления - " << departure_time.hours << ":" << departure_time.minutes << endl;
-    cout << "Цена билета" << price << endl;
+    cout << "Root number" << transport_num << endl;
+    cout << "Destination - " << destination << endl;
+    cout << "Departure time- " << departure_time.hours << ":" << departure_time.minutes << endl;
+    cout << "Ticket price" << price << endl;
 }
 
 int Bus::check_place(int sit) const { //кидает "неверный ввод"

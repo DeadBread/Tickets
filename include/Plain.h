@@ -7,15 +7,11 @@
 #include <stdlib.h>
 #include <iostream>
 
-//#include <boost/random/mersenne_twister.hpp>
-//#include <boost/random/uniform_int_distribution.hpp>
-
 class Plain : public Transport
 {
     public:
         Plain();
-        //Plain(int numrows, int numsits, int plainnum, int businessclassprice, int economyclassprice);
-        //Plain(char r);  //что-то из этого явно лишнее
+
         virtual ~Plain();
 
         int check_place(int row, int sit) const;
@@ -33,7 +29,6 @@ class Plain : public Transport
         int business_class_num;
 
         int rand_init();
-        // Plain& great_init();
 };
 
 #endif // PLAIN_H

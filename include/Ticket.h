@@ -4,7 +4,6 @@
 #include <memory>
 #include <string>
 #include "Vectr.h"
-//#include <boost/shared_ptr.hpp>
 #include "Place.h"
 
 class Ticket

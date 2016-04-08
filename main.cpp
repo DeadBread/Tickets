@@ -3,10 +3,9 @@
 using namespace std;
 
 int main() {
-    //cin.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);    //учит cin кидать исключения
 
     srand(std::time(0));
-    int i = interface();
+    interface();
     return 0;
 }
 
@@ -235,7 +234,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
 
                 tickets.add(tmp);
 
-                cout << "вы успешно приобрели билет" << endl;
+                cout << "you have successfully bought the ticket" << endl;
                 cout << '\n';
                 tmp->print_info();
 
@@ -299,7 +298,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
                                                  my_place);
                 tickets.add(tmp);
 
-                cout << "вы успешно приобрели билет" << endl;
+                cout << "you have successfully bought the ticket" << endl;
                 cout << '\n';
                 tmp->print_info();
 
@@ -349,7 +348,7 @@ int buy(const Transport_system &st, Tickets_vect &tickets, char trans_type) {
                                                              my_place);
                 tickets.add(tmp);
 
-                cout << "вы успешно приобрели билет" << endl;
+                cout << "you have successfully bought the ticket" << endl;
                 cout << '\n';
                 tmp->print_info();
 
@@ -404,7 +403,9 @@ void finder(Tickets_vect &tickets) {
         else {
             Ticket tmp = tickets.get(pos);
             cout <<"Found ticket" << endl;
+            cout << endl;
             tmp.print_info();
+            cout << endl;
         }
     }
     catch (...) {
@@ -413,6 +414,3 @@ void finder(Tickets_vect &tickets) {
         cout << "incorrect input!" << endl;
     }
 }
-
-
-

@@ -13,10 +13,10 @@ Train_place::Train_place(int _car, int _sit, int _klass, int _price) {
 
 void Train_place::print_place_info() const {
     cout.exceptions(ios_base::badbit | ios_base::failbit | ios_base::eofbit);
-    cout << "Вагон - " << car << endl;
-    cout << "Место - " << sit << endl;
-    cout << "Класс - " << klass << endl;
-    cout << "Цена - " << price << "р." << endl;
+    cout << "Car - " << car << endl;
+    cout << "Place - " << sit << endl;
+    cout << "Class - " << klass << endl;
+    cout << "Price - " << price << "р." << endl;
 }
 
 Train_place::~Train_place() {

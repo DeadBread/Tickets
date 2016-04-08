@@ -5,20 +5,20 @@
 1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Bus.cpp
 	"Bus.h"
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Bus.h
+1460130146 /home/kardamon/Documents/prog1/Tickets/include/Bus.h
 	"Transport.h"
 	<stdlib.h>
 	<iostream>
 	"Vectr.h"
 	"Incorrect_input.h"
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Transport.h
+1460130009 /home/kardamon/Documents/prog1/Tickets/include/Transport.h
 	"Vectr.h"
 	<stdlib.h>
 	<iostream>
 	<ctime>
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Vectr.h
+1460130114 /home/kardamon/Documents/prog1/Tickets/include/Vectr.h
 	<vector>
 
 1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Bus_place.cpp
@@ -41,7 +41,7 @@
 1459802332 source:/home/kardamon/Documents/prog1/Tickets/src/Plain.cpp
 	"Plain.h"
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Plain.h
+1460130139 /home/kardamon/Documents/prog1/Tickets/include/Plain.h
 	"Transport.h"
 	"Incorrect_input.h"
 	<stdlib.h>
@@ -60,7 +60,7 @@
 	"Ticket.h"
 	<iostream>
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Ticket.h
+1460130154 /home/kardamon/Documents/prog1/Tickets/include/Ticket.h
 	<memory>
 	<string>
 	"Vectr.h"
@@ -70,7 +70,7 @@
 	"Train.h"
 	<iostream>
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Train.h
+1460130126 /home/kardamon/Documents/prog1/Tickets/include/Train.h
 	"Transport.h"
 	"Incorrect_input.h"
 	"Vectr.h"
@@ -103,7 +103,7 @@
 	"Plain.h"
 	"Bus.h"
 
-1459802344 /home/kardamon/Documents/prog1/Tickets/include/Tickets_vect.h
+1460130106 /home/kardamon/Documents/prog1/Tickets/include/Tickets_vect.h
 	"Vectr.h"
 	"Ticket.h"
 	<iostream>
